@@ -9,6 +9,11 @@ import {
   CardSkeleton,
 } from '@/app/ui/skeletons';
 import CardWrapper, { Card } from '@/app/ui/dashboard/cards';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard | Acme Dashboard',
+};
 
 export default async function Page() {
   const {
